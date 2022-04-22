@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: demo_lib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP856.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/demo_lib.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"R:\Razor\Cracktro x23\demo_lib\_fx\qb_textscroller.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP856.tmp" 
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP857.tmp" with contents
+[
+/nologo /out:"Debug\demo_lib.lib" 
+".\Debug\Fmusic.obj"
+".\Debug\Fsound.obj"
+".\Debug\mixer_clipcopy.obj"
+".\Debug\mixer_fpu_ramp.obj"
+".\Debug\music_formatxm.obj"
+".\Debug\system_file.obj"
+".\Debug\qb_camera.obj"
+".\Debug\qb_debug.obj"
+".\Debug\qb_dx8.obj"
+".\Debug\qb_floor.obj"
+".\Debug\qb_matrix.obj"
+".\Debug\qb_system.obj"
+".\Debug\qb_filter.obj"
+".\Debug\qb_logo.obj"
+".\Debug\qb_sprite_nrj.obj"
+".\Debug\qb_texgen_fractal_landscape.obj"
+".\Debug\qb_textscroller.obj"
+".\Debug\qb_torus_landscape.obj"
+".\Debug\qb_demo.obj"
+".\Debug\qb_sound.obj"
+".\Debug\qb_textures.obj"
+".\Debug\StdAfx.obj"
+".\_fmod\Winmm.lib"
+".\Debug\qb_datas.obj"
+".\Debug\qb_system_asm.obj"
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP857.tmp"
+<h3>Output Window</h3>
+Compiling...
+qb_textscroller.cpp
+Creating library...
+<h3>
+--------------------Configuration: demo_exe - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP859.tmp" with contents
+[
+d3d8.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/demo_exe.pdb" /debug /machine:I386 /out:"Debug/demo_exe.exe" /pdbtype:sept 
+".\Debug\main.obj"
+".\Debug\resource.res"
+"\Razor\Cracktro x23\demo_lib\Debug\demo_lib.lib"
+]
+Creating command line "link.exe @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP859.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+demo_exe.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

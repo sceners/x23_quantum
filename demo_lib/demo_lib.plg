@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: demo_lib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP3E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/demo_lib.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"R:\Razor\Cracktro x23\demo_lib\_fx\qb_landscape.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP3E.tmp" 
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP3F.tmp" with contents
+[
+/nologo /out:"Debug\demo_lib.lib" 
+".\Debug\Fmusic.obj"
+".\Debug\Fsound.obj"
+".\Debug\mixer_clipcopy.obj"
+".\Debug\mixer_fpu_ramp.obj"
+".\Debug\music_formatxm.obj"
+".\Debug\system_file.obj"
+".\Debug\qb_camera.obj"
+".\Debug\qb_debug.obj"
+".\Debug\qb_dx8.obj"
+".\Debug\qb_floor.obj"
+".\Debug\qb_matrix.obj"
+".\Debug\qb_system.obj"
+".\Debug\qb_demo.obj"
+".\Debug\qb_sound.obj"
+".\Debug\qb_textures.obj"
+".\Debug\qb_textures_jpg.obj"
+".\Debug\StdAfx.obj"
+".\_fmod\Winmm.lib"
+".\Debug\qb_datas.obj"
+".\Debug\qb_system_asm.obj"
+".\Debug\qb_landscape.obj"
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP3F.tmp"
+<h3>Output Window</h3>
+Compiling...
+qb_landscape.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+demo_lib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

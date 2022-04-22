@@ -1,0 +1,206 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: demo_lib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP860.bat" with contents
+[
+@echo off
+nasmw -f win32 -o .\Release\qb_system_asm.obj .\_system\qb_system_asm.asm
+]
+Creating command line "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP860.bat"
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP861.bat" with contents
+[
+@echo off
+nasmw -f win32 -o .\Release\qb_datas.obj .\qb_datas.asm
+]
+Creating command line "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP861.bat"
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP862.tmp" with contents
+[
+/nologo /ML /W3 /GX /Ox /Og /Oi /Os /Op /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fo"Release/" /Fd"Release/" /FD /c 
+"R:\Razor\Cracktro x23\demo_lib\_fmod\Fmusic.c"
+"R:\Razor\Cracktro x23\demo_lib\_fmod\Fsound.c"
+"R:\Razor\Cracktro x23\demo_lib\_fmod\mixer_clipcopy.c"
+"R:\Razor\Cracktro x23\demo_lib\_fmod\mixer_fpu_ramp.c"
+"R:\Razor\Cracktro x23\demo_lib\_fmod\music_formatxm.c"
+"R:\Razor\Cracktro x23\demo_lib\_fmod\system_file.c"
+"R:\Razor\Cracktro x23\demo_lib\_system\qb_floor.c"
+]
+Creating command line "cl.exe @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP862.tmp" 
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP863.tmp" with contents
+[
+/nologo /ML /W3 /GX /Ox /Og /Oi /Os /Op /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/demo_lib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"R:\Razor\Cracktro x23\demo_lib\_system\qb_camera.cpp"
+"R:\Razor\Cracktro x23\demo_lib\_system\qb_debug.cpp"
+"R:\Razor\Cracktro x23\demo_lib\_system\qb_dx8.cpp"
+"R:\Razor\Cracktro x23\demo_lib\_system\qb_matrix.cpp"
+"R:\Razor\Cracktro x23\demo_lib\_system\qb_system.cpp"
+"R:\Razor\Cracktro x23\demo_lib\_fx\qb_filter.cpp"
+"R:\Razor\Cracktro x23\demo_lib\_fx\qb_logo.cpp"
+"R:\Razor\Cracktro x23\demo_lib\_fx\qb_sprite_nrj.cpp"
+"R:\Razor\Cracktro x23\demo_lib\_fx\qb_texgen_fractal_landscape.cpp"
+"R:\Razor\Cracktro x23\demo_lib\_fx\qb_textscroller.cpp"
+"R:\Razor\Cracktro x23\demo_lib\_fx\qb_torus_landscape.cpp"
+"R:\Razor\Cracktro x23\demo_lib\qb_demo.cpp"
+"R:\Razor\Cracktro x23\demo_lib\_system\qb_sound.cpp"
+"R:\Razor\Cracktro x23\demo_lib\qb_textures.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP863.tmp" 
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP864.tmp" with contents
+[
+/nologo /ML /W3 /GX /Ox /Og /Oi /Os /Op /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/demo_lib.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"R:\Razor\Cracktro x23\demo_lib\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP864.tmp" 
+Performing Custom Build Step on .\_system\qb_system_asm.asm
+Performing Custom Build Step on .\qb_datas.asm
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP865.tmp" with contents
+[
+/nologo /out:"Release\demo_lib.lib" 
+".\Release\Fmusic.obj"
+".\Release\Fsound.obj"
+".\Release\mixer_clipcopy.obj"
+".\Release\mixer_fpu_ramp.obj"
+".\Release\music_formatxm.obj"
+".\Release\system_file.obj"
+".\Release\qb_camera.obj"
+".\Release\qb_debug.obj"
+".\Release\qb_dx8.obj"
+".\Release\qb_floor.obj"
+".\Release\qb_matrix.obj"
+".\Release\qb_system.obj"
+".\Release\qb_filter.obj"
+".\Release\qb_logo.obj"
+".\Release\qb_sprite_nrj.obj"
+".\Release\qb_texgen_fractal_landscape.obj"
+".\Release\qb_textscroller.obj"
+".\Release\qb_torus_landscape.obj"
+".\Release\qb_demo.obj"
+".\Release\qb_sound.obj"
+".\Release\qb_textures.obj"
+".\Release\StdAfx.obj"
+".\_fmod\Winmm.lib"
+".\Release\qb_datas.obj"
+".\Release\qb_system_asm.obj"
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP865.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Fmusic.c
+Fsound.c
+mixer_clipcopy.c
+mixer_fpu_ramp.c
+music_formatxm.c
+system_file.c
+qb_floor.c
+Generating Code...
+Compiling...
+qb_camera.cpp
+qb_debug.cpp
+qb_dx8.cpp
+qb_matrix.cpp
+qb_system.cpp
+qb_filter.cpp
+qb_logo.cpp
+qb_sprite_nrj.cpp
+qb_texgen_fractal_landscape.cpp
+qb_textscroller.cpp
+qb_torus_landscape.cpp
+qb_demo.cpp
+qb_sound.cpp
+qb_textures.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: demo_exe - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/resource.res" /d "NDEBUG" "R:\Razor\Cracktro x23\demo_exe\resource.rc"" 
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP867.tmp" with contents
+[
+/nologo /ML /W3 /GX /Ox /Og /Oi /Os /Op /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/demo_exe.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"R:\Razor\Cracktro x23\demo_exe\main.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP867.tmp" 
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP868.tmp" with contents
+[
+d3d8.lib kernel32.lib user32.lib gdi32.lib ole32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/demo_exe.pdb" /machine:I386 /nodefaultlib /out:"Release/demo_exe.exe" 
+".\Release\main.obj"
+".\Release\resource.res"
+"\Razor\Cracktro x23\demo_lib\Release\demo_lib.lib"
+]
+Creating command line "link.exe @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP868.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+main.cpp
+Linking...
+<h3>
+--------------------Configuration: demo_build - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP86A.bat" with contents
+[
+@echo off
+nasmw -f win32 -o .\Release\datas.obj .\datas.asm
+]
+Creating command line "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP86A.bat"
+Creating command line "rc.exe /l 0x40c /fo"Release/resource.res" /d "NDEBUG" "R:\Razor\Cracktro x23\demo_build\resource.rc"" 
+Performing Custom Build Step on .\datas.asm
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP86B.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../paintlib/paintlib/common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/demo_build.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"R:\Razor\Cracktro x23\demo_build\main.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP86B.tmp" 
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP86C.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "../../paintlib/paintlib/common" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/demo_build.pch" /Yc /Fo"Release/" /Fd"Release/" /FD /c 
+"R:\Razor\Cracktro x23\demo_build\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP86C.tmp" 
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP86D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Shlwapi.lib comctl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Release/build.pdb" /machine:I386 /out:"Release/build.exe" /libpath:"../../paintlib/lib/release" /libpath:"../Cracktro___Win32_Release" 
+".\Release\main.obj"
+".\Release\StdAfx.obj"
+".\Release\resource.res"
+".\Release\datas.obj"
+]
+Creating command line "link.exe @D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP86D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+main.cpp
+Linking...
+Creating temporary file "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP86F.bat" with contents
+[
+@echo off
+upx --best "Release\build.exe"
+]
+Creating command line "D:\DOCUME~1\replay1\LOCALS~1\Temp\RSP86F.bat"
+Pack
+                     Ultimate Packer for eXecutables
+         Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002
+UPX 1.24w        Markus F.X.J. Oberhumer & Laszlo Molnar         Nov 7th 2002
+
+        File size         Ratio      Format      Name
+   --------------------   ------   -----------   -----------
+    815104 ->    113664   13.94%    win32/pe     build.exe
+
+Packed 1 file.
+
+
+
+<h3>Results</h3>
+build.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
